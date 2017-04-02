@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="libs/hibernate-3.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j.jar"/>
+	<classpathentry kind="lib" path="libs/logback-core-0.9.6.jar"/>
+	<classpathentry kind="lib" path="libs/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j.jar"/>
+	<classpathentry kind="lib" path="libs/org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-collections-3.2.1-1.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
