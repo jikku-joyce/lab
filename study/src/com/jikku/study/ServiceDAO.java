@@ -14,11 +14,11 @@ public class ServiceDAO {
 		this.serviceId = serviceId;  
 	}
 	 
-	public String getSname() {
+	public String getServiceName() {
 		return serviceName;  
 	}
 	
-	public void setSname(String serviceName) {  
+	public void setServiceName(String serviceName) {  
 		this.serviceName = serviceName;  
 	}
 	 

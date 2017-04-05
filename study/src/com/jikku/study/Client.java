@@ -15,17 +15,21 @@ public class Client {
     try
     {
       ServiceDAO service=new ServiceDAO();
-      service.setServiceId(100);
-      service.setSname("S1");
-      service.setServiceCharge(10.00);
+      service.setServiceId(102);
+      service.setServiceName("S3");
+      service.setServiceCharge(11.00);
  
       s.save(service);                              
       s.flush(); 
+      tx.commit();
       System.out.println("Records inserted");
+      s.close();
+      sf.close();
     }
-    catch(Exception e)
-    {
-      tx.rollback();                           
+    catch(Exception e){
+    	s.close();
+    	sf.close();
+    	tx.rollback();                           
     }
   }
 }
